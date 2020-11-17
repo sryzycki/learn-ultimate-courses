@@ -25,6 +25,9 @@
   "projects": {
     "marble-testing": {
       "tags": []
+    },
+    "subscribe-assert-rxjs-testing": {
+      "tags": []
     }
   }
 }

@@ -16,7 +16,10 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@ultimate/marble-testing": ["libs/marble-testing/src/index.ts"]
+      "@ultimate/marble-testing": ["libs/marble-testing/src/index.ts"],
+      "@ultimate/subscribe-assert-rxjs-testing": [
+        "libs/subscribe-assert-rxjs-testing/src/index.ts"
+      ]
     }
   },
   "exclude": ["node_modules", "tmp"]
