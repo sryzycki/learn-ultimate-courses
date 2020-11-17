@@ -1,6 +1,28 @@
 {
   "version": 1,
-  "projects": {},
+  "projects": {
+    "marble-testing": {
+      "root": "libs/marble-testing",
+      "sourceRoot": "libs/marble-testing/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": ["libs/marble-testing/**/*.ts"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/marble-testing/jest.config.js",
+            "passWithNoTests": true
+          }
+        }
+      }
+    }
+  },
   "cli": {
     "defaultCollection": "@nrwl/workspace"
   }

@@ -22,5 +22,9 @@
       }
     }
   },
-  "projects": {}
+  "projects": {
+    "marble-testing": {
+      "tags": []
+    }
+  }
 }
